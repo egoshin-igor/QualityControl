@@ -1,4 +1,4 @@
-set PROGRAM="../bin/Debug/lab1.exe"
+set PROGRAM="../lab1.exe"
 
 echo not enough arguments
 %PROGRAM% > output.txt
