@@ -31,6 +31,18 @@ FC output.txt notTriangle.txt
 IF ERRORLEVEL 1 GOTO err
 
 echo isosceles triangle
+%PROGRAM% 2 3 3 > output.txt
+IF NOT ERRORLEVEL 0 GOTO err
+FC output.txt isoscelesTriangle.txt
+IF ERRORLEVEL 1 GOTO err
+
+echo equilateral triangle
+%PROGRAM% 1 1 1 > output.txt
+IF NOT ERRORLEVEL 0 GOTO err
+FC output.txt equilateralTriangle.txt
+IF ERRORLEVEL 1 GOTO err
+
+echo isosceles triangle
 %PROGRAM% 13 13 24 > output.txt
 IF NOT ERRORLEVEL 0 GOTO err
 FC output.txt isoscelesTriangle.txt
