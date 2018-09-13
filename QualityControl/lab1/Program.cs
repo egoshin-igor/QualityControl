@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace lab1
 {
@@ -15,46 +16,48 @@ namespace lab1
     {
         static int Main( string[] args )
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             if ( args.Length != 3 )
             {
-                Console.WriteLine( "Incorrect data" );
+                Console.WriteLine( "Некорректные данные" );
                 return 1;
             }
 
             List<double> triangleValues = GetDoubleList( args );
             if ( triangleValues == null )
             {
-                Console.WriteLine( "Incorrect data" );
+                Console.WriteLine( "Некорректные данные" );
                 return 1;
             }
 
-            var triangleType = GetTriangleType( triangleValues[ 0 ], triangleValues[ 1 ], triangleValues[ 2 ] );
-            Console.WriteLine( triangleType.ToString() );
+            string triangleType = GetTriangleType( triangleValues[ 0 ], triangleValues[ 1 ], triangleValues[ 2 ] );
+            Console.WriteLine( triangleType );
             return 0;
         }
 
-        private static TriangleType GetTriangleType( double a, double b, double c )
+        private static string GetTriangleType( double a, double b, double c )
         {
             if ( ( ( a + b ).CompareTo( c ) <= 0 ) ||
                  ( ( a + c ).CompareTo( b ) <= 0 ) ||
                  ( ( b + c ).CompareTo( a ) <= 0 ) )
             {
-                return TriangleType.NotTriangle;
+                return "не треугольник";
             }
 
-            if ( a.CompareTo(b) == 0 && b.CompareTo( c ) == 0 )
+            if ( a.CompareTo( b ) == 0 && b.CompareTo( c ) == 0 )
             {
-                return TriangleType.EquilateralTriangle;
+                return "равносторонний";
             }
 
             if ( a.CompareTo( b ) == 0 && b.CompareTo( c ) != 0 ||
                  a.CompareTo( c ) == 0 && c.CompareTo( b ) != 0 ||
                  b.CompareTo( c ) == 0 && c.CompareTo( a ) != 0 )
             {
-                return TriangleType.IsoscelesTriangle;
+                return "равнобедренный";
             }
 
-            return TriangleType.SimpleTriangle;
+            return "обычный";
         }
 
         private static List<double> GetDoubleList( string[] args )
