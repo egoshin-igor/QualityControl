@@ -55,7 +55,7 @@ FC output.txt simpleTriangle.txt
 IF ERRORLEVEL 1 GOTO err
 
 echo equilateral triangle
-%PROGRAM% 2,519 2,519 2,519 > output.txt
+%PROGRAM% 2.519 2.519 2.519 > output.txt
 IF NOT ERRORLEVEL 0 GOTO err
 FC output.txt equilateralTriangle.txt
 IF ERRORLEVEL 1 GOTO err

@@ -1,17 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace lab1
 {
-    enum TriangleType
-    {
-        IsoscelesTriangle = 0,
-        EquilateralTriangle = 1,
-        SimpleTriangle = 2,
-        NotTriangle = 3
-    }
-
     class Program
     {
         static int Main( string[] args )
@@ -20,14 +13,14 @@ namespace lab1
 
             if ( args.Length != 3 )
             {
-                Console.WriteLine( "Некорректные данные" );
+                Console.WriteLine( "Некорректные данные\nПравильный формат:\nlab1.exe <number> <number> <number>" );
                 return 1;
             }
 
             List<double> triangleValues = GetDoubleList( args );
             if ( triangleValues == null )
             {
-                Console.WriteLine( "Некорректные данные" );
+                Console.WriteLine( "Некорректные данные\nПравильный формат:\nlab1.exe <number> <number> <number>" );
                 return 1;
             }
 
@@ -65,12 +58,13 @@ namespace lab1
             List<double> doubleList = new List<double>();
             foreach ( var arg in args )
             {
-                if ( !double.TryParse( arg, out double value ) )
+                if ( !double.TryParse( arg, NumberStyles.Float, CultureInfo.InvariantCulture, out double value ) )
                 {
                     return null;
                 }
                 doubleList.Add( value );
             }
+
             return doubleList;
         }
     }
