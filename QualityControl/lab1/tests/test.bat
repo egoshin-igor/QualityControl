@@ -1,4 +1,4 @@
-set PROGRAM="../lab1.exe"
+set PROGRAM="../triangle.exe"
 
 echo not enough arguments
 %PROGRAM% > output.txt
@@ -18,10 +18,10 @@ IF NOT ERRORLEVEL 1 GOTO err
 FC output.txt incorrectData.txt
 IF ERRORLEVEL 1 GOTO err
 
-echo not triangle
+echo numbers can be more than zero
 %PROGRAM% -1 0 1 > output.txt
 IF NOT ERRORLEVEL 0 GOTO err
-FC output.txt notTriangle.txt
+FC output.txt incorrectData.txt
 IF ERRORLEVEL 1 GOTO err
 
 echo not triangle
@@ -55,7 +55,7 @@ FC output.txt simpleTriangle.txt
 IF ERRORLEVEL 1 GOTO err
 
 echo equilateral triangle
-%PROGRAM% 2.519 2.519 2.519 > output.txt
+%PROGRAM% 2.519 2,519 2.519 > output.txt
 IF NOT ERRORLEVEL 0 GOTO err
 FC output.txt equilateralTriangle.txt
 IF ERRORLEVEL 1 GOTO err

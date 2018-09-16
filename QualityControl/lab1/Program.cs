@@ -13,14 +13,20 @@ namespace lab1
 
             if ( args.Length != 3 )
             {
-                Console.WriteLine( "Некорректные данные\nПравильный формат:\nlab1.exe <number> <number> <number>" );
+                Console.WriteLine( "Некорректные данные\nПравильный формат:\nlab1.exe <number> <number> <number>\n<number> > 0" );
                 return 1;
             }
 
             List<double> triangleValues = GetDoubleList( args );
             if ( triangleValues == null )
             {
-                Console.WriteLine( "Некорректные данные\nПравильный формат:\nlab1.exe <number> <number> <number>" );
+                Console.WriteLine( "Некорректные данные\nПравильный формат:\nlab1.exe <number> <number> <number>\n<number> > 0" );
+                return 1;
+            }
+
+            if ( !ValidateFigureLength( triangleValues ) )
+            {
+                Console.WriteLine( "Некорректные данные\nПравильный формат:\nlab1.exe <number> <number> <number>\n<number> > 0" );
                 return 1;
             }
 
@@ -58,7 +64,8 @@ namespace lab1
             List<double> doubleList = new List<double>();
             foreach ( var arg in args )
             {
-                if ( !double.TryParse( arg, NumberStyles.Float, CultureInfo.InvariantCulture, out double value ) )
+                if ( !double.TryParse( arg, NumberStyles.AllowDecimalPoint, CultureInfo.GetCultureInfo( "ru" ), out double value ) &&
+                     !double.TryParse( arg, NumberStyles.AllowDecimalPoint, CultureInfo.GetCultureInfo( "en" ), out value ) )
                 {
                     return null;
                 }
@@ -66,6 +73,19 @@ namespace lab1
             }
 
             return doubleList;
+        }
+
+        private static bool ValidateFigureLength( List<double> doubleList )
+        {
+            foreach ( var value in doubleList )
+            {
+                if ( value.CompareTo( 0 ) <= 0 )
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }

@@ -1,3 +1,4 @@
 Некорректные данные
 Правильный формат:
 lab1.exe <number> <number> <number>
+<number> > 0
