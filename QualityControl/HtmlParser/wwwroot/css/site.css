@@ -1,3 +1,28 @@
 ﻿.parsed-link {
-	display: block;
+	display: inline-block;
+}
+
+.normal-links-wrapper {
+}
+
+.broken-links-wrapper {
+}
+
+.links-wrapper {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.search-wrapper {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.link-result {
+	border-bottom: solid 1px #808080;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 100%;
 }

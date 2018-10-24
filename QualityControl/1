@@ -1,0 +1,34 @@
+Сборка начата, подождите...
+Сборка выполнена.
+
+Тестовый запуск D:\Studies\QualityControl\QualityControl\lab5.Tests\bin\Debug\netcoreapp2.0\lab5.Tests.dll(.NETCoreApp,Version=v2.0)
+Программа Microsoft (R) Test Execution Command Line Tool версии 15.5.0
+(с) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Запуск выполнения тестов; подождите...
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.26020.03)
+[xUnit.net 00:00:00.75]   Discovering: lab5.Tests
+[xUnit.net 00:00:00.92]   Discovered:  lab5.Tests
+[xUnit.net 00:00:00.92] lab5.Tests: Skipping test case with duplicate ID 'bbfd50aacf8f6d82f6c64028b1836b7e3ffb473a' ('lab5.Tests.LongNumberTest.LongNumber_NumberMultipliedByNumber_GetCorrectNumber(strNumberOne: "4", strNumberTwo: "111", strResult: "+444")' and 'lab5.Tests.LongNumberTest.LongNumber_NumberMultipliedByNumber_GetCorrectNumber(strNumberOne: "4", strNumberTwo: "111", strResult: "+444")')
+[xUnit.net 00:00:00.93]   Starting:    lab5.Tests
+[xUnit.net 00:00:01.33]   Finished:    lab5.Tests
+
+Всего тестов: 71. Пройдено: 71. Не пройдено: 0. Пропущено: 0.
+Тестовый запуск выполнен.
+Время выполнения теста: 2,5223 Секунды
+
+Calculating coverage result...
+  Generating report 'D:\Studies\QualityControl\QualityControl\lab5.Tests\coverage.cobertura.xml'
+
++--------+--------+--------+--------+
+| Module | Line   | Branch | Method |
++--------+--------+--------+--------+
+| lab5   | 100%   | 100%   | 100%   |
++--------+--------+--------+--------+
+
++---------+--------+--------+--------+
+|         | Line   | Branch | Method |
++---------+--------+--------+--------+
+| Average | 100%   | 100%   | 100%   |
++---------+--------+--------+--------+
+

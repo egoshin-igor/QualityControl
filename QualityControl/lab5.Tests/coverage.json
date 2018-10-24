@@ -1,0 +1,1329 @@
+{
+ "D:\\Studies\\QualityControl\\QualityControl\\lab5.Tests\\bin\\Debug\\netcoreapp2.0\\lab5.dll": {
+  "D:\\Studies\\QualityControl\\QualityControl\\lab5\\LongNumber.cs": {
+   "lab5.LongNumber": {
+    "lab5.LongNumber lab5.LongNumber::op_Multiply(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "37": {
+       "Hits": 9
+      },
+      "39": {
+       "Hits": 9
+      },
+      "40": {
+       "Hits": 9
+      },
+      "41": {
+       "Hits": 3
+      },
+      "42": {
+       "Hits": 3
+      },
+      "43": {
+       "Hits": 3
+      },
+      "44": {
+       "Hits": 3
+      },
+      "45": {
+       "Hits": 3
+      },
+      "47": {
+       "Hits": 36
+      },
+      "48": {
+       "Hits": 9
+      },
+      "49": {
+       "Hits": 9
+      },
+      "50": {
+       "Hits": 11
+      },
+      "51": {
+       "Hits": 9
+      },
+      "52": {
+       "Hits": 9
+      },
+      "53": {
+       "Hits": 9
+      },
+      "54": {
+       "Hits": 9
+      }
+     },
+     "Branches": {
+      "40": [{
+       "Offset": 19,
+       "EndOffset": 21,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 19,
+       "EndOffset": 31,
+       "Path": 1,
+       "Ordinal": 1
+      }],
+      "47": [{
+       "Offset": 89,
+       "EndOffset": 36,
+       "Path": 1,
+       "Ordinal": 3
+      }, {
+       "Offset": 89,
+       "EndOffset": 91,
+       "Path": 0,
+       "Ordinal": 2
+      }],
+      "50": [{
+       "Offset": 135,
+       "EndOffset": 105,
+       "Path": 1,
+       "Ordinal": 7
+      }, {
+       "Offset": 107,
+       "EndOffset": 109,
+       "Path": 0,
+       "Ordinal": 4
+      }, {
+       "Offset": 107,
+       "EndOffset": 130,
+       "Path": 1,
+       "Ordinal": 5
+      }, {
+       "Offset": 135,
+       "EndOffset": 137,
+       "Path": 0,
+       "Ordinal": 6
+      }]
+     }
+    },
+    "lab5.LongNumber lab5.LongNumber::op_Multiply(lab5.LongNumber,System.Byte)": {
+     "Lines": {
+      "58": {
+       "Hits": 630
+      },
+      "59": {
+       "Hits": 630
+      },
+      "60": {
+       "Hits": 630
+      },
+      "61": {
+       "Hits": 2580
+      },
+      "62": {
+       "Hits": 660
+      },
+      "63": {
+       "Hits": 660
+      },
+      "64": {
+       "Hits": 660
+      },
+      "65": {
+       "Hits": 660
+      },
+      "66": {
+       "Hits": 660
+      },
+      "67": {
+       "Hits": 660
+      },
+      "68": {
+       "Hits": 819
+      },
+      "71": {
+       "Hits": 630
+      },
+      "72": {
+       "Hits": 630
+      }
+     },
+     "Branches": {
+      "61": [{
+       "Offset": 102,
+       "EndOffset": 19,
+       "Path": 1,
+       "Ordinal": 1
+      }, {
+       "Offset": 102,
+       "EndOffset": 104,
+       "Path": 0,
+       "Ordinal": 0
+      }],
+      "68": [{
+       "Offset": 112,
+       "EndOffset": 114,
+       "Path": 0,
+       "Ordinal": 2
+      }, {
+       "Offset": 112,
+       "EndOffset": 127,
+       "Path": 1,
+       "Ordinal": 3
+      }]
+     }
+    },
+    "lab5.Cont`2<lab5.LongNumber,lab5.LongNumber> lab5.LongNumber::op_Division(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "76": {
+       "Hits": 47
+      },
+      "78": {
+       "Hits": 47
+      },
+      "79": {
+       "Hits": 47
+      },
+      "81": {
+       "Hits": 47
+      },
+      "82": {
+       "Hits": 3
+      },
+      "83": {
+       "Hits": 3
+      },
+      "84": {
+       "Hits": 3
+      },
+      "86": {
+       "Hits": 44
+      },
+      "88": {
+       "Hits": 112
+      },
+      "90": {
+       "Hits": 104
+      },
+      "91": {
+       "Hits": 8
+      },
+      "92": {
+       "Hits": 8
+      },
+      "93": {
+       "Hits": 5
+      },
+      "95": {
+       "Hits": 3
+      },
+      "96": {
+       "Hits": 3
+      },
+      "97": {
+       "Hits": 3
+      },
+      "98": {
+       "Hits": 3
+      },
+      "100": {
+       "Hits": 3
+      },
+      "101": {
+       "Hits": 8
+      },
+      "102": {
+       "Hits": 8
+      },
+      "104": {
+       "Hits": 44
+      },
+      "105": {
+       "Hits": 44
+      },
+      "106": {
+       "Hits": 44
+      },
+      "107": {
+       "Hits": 44
+      },
+      "108": {
+       "Hits": 44
+      },
+      "110": {
+       "Hits": 44
+      },
+      "111": {
+       "Hits": 54
+      },
+      "112": {
+       "Hits": 44
+      },
+      "113": {
+       "Hits": 44
+      },
+      "114": {
+       "Hits": 44
+      },
+      "115": {
+       "Hits": 47
+      }
+     },
+     "Branches": {
+      "81": [{
+       "Offset": 39,
+       "EndOffset": 41,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 39,
+       "EndOffset": 69,
+       "Path": 1,
+       "Ordinal": 1
+      }],
+      "88": [{
+       "Offset": 127,
+       "EndOffset": 98,
+       "Path": 1,
+       "Ordinal": 3
+      }, {
+       "Offset": 127,
+       "EndOffset": 129,
+       "Path": 0,
+       "Ordinal": 2
+      }],
+      "90": [{
+       "Offset": 235,
+       "EndOffset": 134,
+       "Path": 1,
+       "Ordinal": 7
+      }, {
+       "Offset": 235,
+       "EndOffset": 237,
+       "Path": 0,
+       "Ordinal": 6
+      }],
+      "92": [{
+       "Offset": 149,
+       "EndOffset": 151,
+       "Path": 0,
+       "Ordinal": 4
+      }, {
+       "Offset": 149,
+       "EndOffset": 167,
+       "Path": 1,
+       "Ordinal": 5
+      }],
+      "111": [{
+       "Offset": 320,
+       "EndOffset": 290,
+       "Path": 1,
+       "Ordinal": 11
+      }, {
+       "Offset": 292,
+       "EndOffset": 294,
+       "Path": 0,
+       "Ordinal": 8
+      }, {
+       "Offset": 292,
+       "EndOffset": 315,
+       "Path": 1,
+       "Ordinal": 9
+      }, {
+       "Offset": 320,
+       "EndOffset": 322,
+       "Path": 0,
+       "Ordinal": 10
+      }]
+     }
+    },
+    "lab5.Cont`2<System.Byte,lab5.LongNumber> lab5.LongNumber::getDivider(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "118": {
+       "Hits": 47
+      },
+      "119": {
+       "Hits": 47
+      },
+      "120": {
+       "Hits": 47
+      },
+      "121": {
+       "Hits": 423
+      },
+      "122": {
+       "Hits": 376
+      },
+      "123": {
+       "Hits": 376
+      },
+      "125": {
+       "Hits": 376
+      },
+      "126": {
+       "Hits": 288
+      },
+      "127": {
+       "Hits": 288
+      },
+      "128": {
+       "Hits": 288
+      },
+      "130": {
+       "Hits": 88
+      },
+      "131": {
+       "Hits": 88
+      },
+      "132": {
+       "Hits": 88
+      },
+      "133": {
+       "Hits": 376
+      },
+      "135": {
+       "Hits": 47
+      },
+      "136": {
+       "Hits": 47
+      },
+      "138": {
+       "Hits": 47
+      },
+      "139": {
+       "Hits": 47
+      }
+     },
+     "Branches": {
+      "121": [{
+       "Offset": 70,
+       "EndOffset": 11,
+       "Path": 1,
+       "Ordinal": 3
+      }, {
+       "Offset": 70,
+       "EndOffset": 72,
+       "Path": 0,
+       "Ordinal": 2
+      }],
+      "125": [{
+       "Offset": 39,
+       "EndOffset": 41,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 39,
+       "EndOffset": 51,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    },
+    "System.Void lab5.LongNumber::multuADD(lab5.LongNumber,lab5.LongNumber,System.Int32)": {
+     "Lines": {
+      "142": {
+       "Hits": 9
+      },
+      "144": {
+       "Hits": 9
+      },
+      "145": {
+       "Hits": 40
+      },
+      "146": {
+       "Hits": 11
+      },
+      "147": {
+       "Hits": 22
+      },
+      "148": {
+       "Hits": 11
+      },
+      "150": {
+       "Hits": 11
+      },
+      "151": {
+       "Hits": 11
+      },
+      "153": {
+       "Hits": 11
+      },
+      "154": {
+       "Hits": 9
+      },
+      "155": {
+       "Hits": 9
+      }
+     },
+     "Branches": {
+      "145": [{
+       "Offset": 126,
+       "EndOffset": 7,
+       "Path": 1,
+       "Ordinal": 5
+      }, {
+       "Offset": 126,
+       "EndOffset": 128,
+       "Path": 0,
+       "Ordinal": 4
+      }],
+      "147": [{
+       "Offset": 28,
+       "EndOffset": 30,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 28,
+       "EndOffset": 43,
+       "Path": 1,
+       "Ordinal": 1
+      }],
+      "148": [{
+       "Offset": 71,
+       "EndOffset": 73,
+       "Path": 0,
+       "Ordinal": 2
+      }, {
+       "Offset": 71,
+       "EndOffset": 76,
+       "Path": 1,
+       "Ordinal": 3
+      }]
+     }
+    },
+    "lab5.LongNumber lab5.LongNumber::op_Addition(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "158": {
+       "Hits": 214
+      },
+      "160": {
+       "Hits": 214
+      },
+      "161": {
+       "Hits": 124
+      },
+      "162": {
+       "Hits": 124
+      },
+      "163": {
+       "Hits": 124
+      },
+      "164": {
+       "Hits": 124
+      },
+      "165": {
+       "Hits": 124
+      },
+      "166": {
+       "Hits": 214
+      },
+      "167": {
+       "Hits": 214
+      },
+      "168": {
+       "Hits": 214
+      },
+      "171": {
+       "Hits": 214
+      }
+     },
+     "Branches": {
+      "160": [{
+       "Offset": 13,
+       "EndOffset": 15,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 13,
+       "EndOffset": 25,
+       "Path": 1,
+       "Ordinal": 1
+      }],
+      "166": [{
+       "Offset": 37,
+       "EndOffset": 39,
+       "Path": 0,
+       "Ordinal": 2
+      }, {
+       "Offset": 37,
+       "EndOffset": 48,
+       "Path": 1,
+       "Ordinal": 3
+      }]
+     }
+    },
+    "lab5.LongNumber lab5.LongNumber::op_Subtraction(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "174": {
+       "Hits": 8
+      },
+      "175": {
+       "Hits": 8
+      },
+      "176": {
+       "Hits": 1
+      },
+      "178": {
+       "Hits": 7
+      },
+      "179": {
+       "Hits": 8
+      },
+      "180": {
+       "Hits": 8
+      },
+      "181": {
+       "Hits": 8
+      },
+      "182": {
+       "Hits": 8
+      }
+     },
+     "Branches": {
+      "175": [{
+       "Offset": 10,
+       "EndOffset": 12,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 10,
+       "EndOffset": 42,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    },
+    "lab5.LongNumber lab5.LongNumber::Add(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "185": {
+       "Hits": 205
+      },
+      "187": {
+       "Hits": 205
+      },
+      "188": {
+       "Hits": 205
+      },
+      "189": {
+       "Hits": 820
+      },
+      "190": {
+       "Hits": 205
+      },
+      "191": {
+       "Hits": 205
+      },
+      "192": {
+       "Hits": 205
+      },
+      "193": {
+       "Hits": 205
+      },
+      "194": {
+       "Hits": 205
+      },
+      "195": {
+       "Hits": 205
+      },
+      "197": {
+       "Hits": 205
+      },
+      "198": {
+       "Hits": 205
+      }
+     },
+     "Branches": {
+      "189": [{
+       "Offset": 102,
+       "EndOffset": 19,
+       "Path": 1,
+       "Ordinal": 3
+      }, {
+       "Offset": 102,
+       "EndOffset": 104,
+       "Path": 0,
+       "Ordinal": 2
+      }],
+      "191": [{
+       "Offset": 46,
+       "EndOffset": 48,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 46,
+       "EndOffset": 51,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    },
+    "lab5.LongNumber lab5.LongNumber::Subtract(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "201": {
+       "Hits": 56
+      },
+      "202": {
+       "Hits": 56
+      },
+      "203": {
+       "Hits": 56
+      },
+      "204": {
+       "Hits": 246
+      },
+      "205": {
+       "Hits": 67
+      },
+      "206": {
+       "Hits": 67
+      },
+      "207": {
+       "Hits": 67
+      },
+      "208": {
+       "Hits": 67
+      },
+      "209": {
+       "Hits": 67
+      },
+      "210": {
+       "Hits": 56
+      },
+      "211": {
+       "Hits": 57
+      },
+      "212": {
+       "Hits": 1
+      },
+      "213": {
+       "Hits": 2
+      },
+      "214": {
+       "Hits": 1
+      },
+      "215": {
+       "Hits": 1
+      },
+      "216": {
+       "Hits": 1
+      },
+      "217": {
+       "Hits": 56
+      },
+      "218": {
+       "Hits": 124
+      },
+      "219": {
+       "Hits": 56
+      },
+      "221": {
+       "Hits": 56
+      },
+      "222": {
+       "Hits": 56
+      }
+     },
+     "Branches": {
+      "204": [{
+       "Offset": 135,
+       "EndOffset": 20,
+       "Path": 1,
+       "Ordinal": 3
+      }, {
+       "Offset": 135,
+       "EndOffset": 137,
+       "Path": 0,
+       "Ordinal": 2
+      }],
+      "207": [{
+       "Offset": 90,
+       "EndOffset": 92,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 90,
+       "EndOffset": 95,
+       "Path": 1,
+       "Ordinal": 1
+      }],
+      "211": [{
+       "Offset": 218,
+       "EndOffset": 151,
+       "Path": 1,
+       "Ordinal": 7
+      }, {
+       "Offset": 218,
+       "EndOffset": 220,
+       "Path": 0,
+       "Ordinal": 6
+      }],
+      "213": [{
+       "Offset": 171,
+       "EndOffset": 173,
+       "Path": 0,
+       "Ordinal": 4
+      }, {
+       "Offset": 171,
+       "EndOffset": 175,
+       "Path": 1,
+       "Ordinal": 5
+      }],
+      "218": [{
+       "Offset": 264,
+       "EndOffset": 234,
+       "Path": 1,
+       "Ordinal": 11
+      }, {
+       "Offset": 236,
+       "EndOffset": 238,
+       "Path": 0,
+       "Ordinal": 8
+      }, {
+       "Offset": 236,
+       "EndOffset": 259,
+       "Path": 1,
+       "Ordinal": 9
+      }, {
+       "Offset": 264,
+       "EndOffset": 266,
+       "Path": 0,
+       "Ordinal": 10
+      }]
+     }
+    },
+    "System.Int32 lab5.LongNumber::AbsCompare(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "226": {
+       "Hits": 690
+      },
+      "227": {
+       "Hits": 693
+      },
+      "228": {
+       "Hits": 700
+      },
+      "229": {
+       "Hits": 786
+      },
+      "230": {
+       "Hits": 577
+      },
+      "231": {
+       "Hits": 1300
+      },
+      "232": {
+       "Hits": 591
+      },
+      "233": {
+       "Hits": 907
+      },
+      "234": {
+       "Hits": 447
+      },
+      "235": {
+       "Hits": 103
+      },
+      "236": {
+       "Hits": 59
+      },
+      "237": {
+       "Hits": 690
+      }
+     },
+     "Branches": {
+      "227": [{
+       "Offset": 7,
+       "EndOffset": 9,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 7,
+       "EndOffset": 20,
+       "Path": 1,
+       "Ordinal": 1
+      }, {
+       "Offset": 23,
+       "EndOffset": 25,
+       "Path": 0,
+       "Ordinal": 2
+      }, {
+       "Offset": 23,
+       "EndOffset": 32,
+       "Path": 1,
+       "Ordinal": 3
+      }],
+      "228": [{
+       "Offset": 38,
+       "EndOffset": 40,
+       "Path": 0,
+       "Ordinal": 4
+      }, {
+       "Offset": 38,
+       "EndOffset": 48,
+       "Path": 1,
+       "Ordinal": 5
+      }, {
+       "Offset": 51,
+       "EndOffset": 53,
+       "Path": 0,
+       "Ordinal": 6
+      }, {
+       "Offset": 51,
+       "EndOffset": 60,
+       "Path": 1,
+       "Ordinal": 7
+      }],
+      "229": [{
+       "Offset": 86,
+       "EndOffset": 88,
+       "Path": 0,
+       "Ordinal": 8
+      }, {
+       "Offset": 86,
+       "EndOffset": 95,
+       "Path": 1,
+       "Ordinal": 9
+      }],
+      "230": [{
+       "Offset": 123,
+       "EndOffset": 125,
+       "Path": 0,
+       "Ordinal": 10
+      }, {
+       "Offset": 123,
+       "EndOffset": 129,
+       "Path": 1,
+       "Ordinal": 11
+      }],
+      "231": [{
+       "Offset": 242,
+       "EndOffset": 146,
+       "Path": 1,
+       "Ordinal": 17
+      }, {
+       "Offset": 242,
+       "EndOffset": 244,
+       "Path": 0,
+       "Ordinal": 16
+      }],
+      "233": [{
+       "Offset": 179,
+       "EndOffset": 181,
+       "Path": 0,
+       "Ordinal": 12
+      }, {
+       "Offset": 179,
+       "EndOffset": 185,
+       "Path": 1,
+       "Ordinal": 13
+      }],
+      "234": [{
+       "Offset": 217,
+       "EndOffset": 219,
+       "Path": 0,
+       "Ordinal": 14
+      }, {
+       "Offset": 217,
+       "EndOffset": 223,
+       "Path": 1,
+       "Ordinal": 15
+      }]
+     }
+    },
+    "System.Boolean lab5.LongNumber::op_GreaterThan(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "241": {
+       "Hits": 16
+      },
+      "242": {
+       "Hits": 16
+      },
+      "243": {
+       "Hits": 8
+      },
+      "244": {
+       "Hits": 8
+      },
+      "245": {
+       "Hits": 4
+      },
+      "247": {
+       "Hits": 4
+      },
+      "250": {
+       "Hits": 8
+      },
+      "251": {
+       "Hits": 4
+      },
+      "253": {
+       "Hits": 4
+      },
+      "254": {
+       "Hits": 16
+      }
+     },
+     "Branches": {
+      "242": [{
+       "Offset": 9,
+       "EndOffset": 11,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 9,
+       "EndOffset": 39,
+       "Path": 1,
+       "Ordinal": 1
+      }],
+      "244": [{
+       "Offset": 20,
+       "EndOffset": 22,
+       "Path": 0,
+       "Ordinal": 2
+      }, {
+       "Offset": 20,
+       "EndOffset": 35,
+       "Path": 1,
+       "Ordinal": 3
+      }],
+      "250": [{
+       "Offset": 47,
+       "EndOffset": 49,
+       "Path": 0,
+       "Ordinal": 4
+      }, {
+       "Offset": 47,
+       "EndOffset": 53,
+       "Path": 1,
+       "Ordinal": 5
+      }]
+     }
+    },
+    "System.Boolean lab5.LongNumber::op_LessThan(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "257": {
+       "Hits": 8
+      },
+      "258": {
+       "Hits": 8
+      },
+      "259": {
+       "Hits": 8
+      }
+     },
+     "Branches": {
+     }
+    },
+    "System.Boolean lab5.LongNumber::op_LessThanOrEqual(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "262": {
+       "Hits": 3
+      },
+      "263": {
+       "Hits": 3
+      },
+      "264": {
+       "Hits": 3
+      }
+     },
+     "Branches": {
+      "263": [{
+       "Offset": 8,
+       "EndOffset": 10,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 8,
+       "EndOffset": 19,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    },
+    "System.Boolean lab5.LongNumber::op_GreaterThanOrEqual(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "267": {
+       "Hits": 3
+      },
+      "268": {
+       "Hits": 3
+      },
+      "269": {
+       "Hits": 3
+      }
+     },
+     "Branches": {
+      "268": [{
+       "Offset": 8,
+       "EndOffset": 10,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 8,
+       "EndOffset": 19,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    },
+    "System.Boolean lab5.LongNumber::op_Equality(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "272": {
+       "Hits": 27
+      },
+      "273": {
+       "Hits": 34
+      },
+      "275": {
+       "Hits": 20
+      },
+      "276": {
+       "Hits": 27
+      }
+     },
+     "Branches": {
+      "273": [{
+       "Offset": 20,
+       "EndOffset": 22,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 20,
+       "EndOffset": 26,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    },
+    "System.Boolean lab5.LongNumber::op_Inequality(lab5.LongNumber,lab5.LongNumber)": {
+     "Lines": {
+      "279": {
+       "Hits": 6
+      },
+      "280": {
+       "Hits": 6
+      },
+      "281": {
+       "Hits": 6
+      }
+     },
+     "Branches": {
+     }
+    },
+    "System.String lab5.LongNumber::ToString()": {
+     "Lines": {
+      "284": {
+       "Hits": 55
+      },
+      "285": {
+       "Hits": 55
+      },
+      "286": {
+       "Hits": 55
+      },
+      "287": {
+       "Hits": 55
+      },
+      "288": {
+       "Hits": 55
+      },
+      "289": {
+       "Hits": 95
+      },
+      "290": {
+       "Hits": 40
+      },
+      "291": {
+       "Hits": 40
+      },
+      "292": {
+       "Hits": 40
+      },
+      "293": {
+       "Hits": 40
+      },
+      "294": {
+       "Hits": 40
+      },
+      "295": {
+       "Hits": 55
+      },
+      "296": {
+       "Hits": 55
+      },
+      "297": {
+       "Hits": 55
+      }
+     },
+     "Branches": {
+      "289": [{
+       "Offset": 134,
+       "EndOffset": 51,
+       "Path": 1,
+       "Ordinal": 3
+      }, {
+       "Offset": 109,
+       "EndOffset": 111,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 109,
+       "EndOffset": 129,
+       "Path": 1,
+       "Ordinal": 1
+      }, {
+       "Offset": 134,
+       "EndOffset": 136,
+       "Path": 0,
+       "Ordinal": 2
+      }]
+     }
+    },
+    "System.Char lab5.LongNumber::Sign()": {
+     "Lines": {
+      "300": {
+       "Hits": 55
+      },
+      "301": {
+       "Hits": 55
+      },
+      "302": {
+       "Hits": 55
+      }
+     },
+     "Branches": {
+      "301": [{
+       "Offset": 7,
+       "EndOffset": 9,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 7,
+       "EndOffset": 13,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    },
+    "lab5.LongNumber lab5.LongNumber::FromString(System.String)": {
+     "Lines": {
+      "305": {
+       "Hits": 126
+      },
+      "306": {
+       "Hits": 126
+      },
+      "307": {
+       "Hits": 96
+      },
+      "308": {
+       "Hits": 96
+      },
+      "309": {
+       "Hits": 96
+      },
+      "310": {
+       "Hits": 126
+      },
+      "311": {
+       "Hits": 648
+      },
+      "312": {
+       "Hits": 198
+      },
+      "313": {
+       "Hits": 198
+      },
+      "314": {
+       "Hits": 198
+      },
+      "315": {
+       "Hits": 198
+      },
+      "316": {
+       "Hits": 126
+      },
+      "317": {
+       "Hits": 126
+      },
+      "318": {
+       "Hits": 126
+      }
+     },
+     "Branches": {
+      "306": [{
+       "Offset": 7,
+       "EndOffset": 9,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 18,
+       "EndOffset": 20,
+       "Path": 0,
+       "Ordinal": 2
+      }, {
+       "Offset": 7,
+       "EndOffset": 36,
+       "Path": 1,
+       "Ordinal": 1
+      }, {
+       "Offset": 18,
+       "EndOffset": 36,
+       "Path": 1,
+       "Ordinal": 3
+      }, {
+       "Offset": 39,
+       "EndOffset": 41,
+       "Path": 0,
+       "Ordinal": 4
+      }, {
+       "Offset": 39,
+       "EndOffset": 56,
+       "Path": 1,
+       "Ordinal": 5
+      }],
+      "311": [{
+       "Offset": 140,
+       "EndOffset": 79,
+       "Path": 1,
+       "Ordinal": 7
+      }, {
+       "Offset": 140,
+       "EndOffset": 142,
+       "Path": 0,
+       "Ordinal": 6
+      }]
+     }
+    }
+   },
+   "lab5.Cont`2": {
+    "T1 lab5.Cont`2::get_Second()": {
+     "Lines": {
+      "329": {
+       "Hits": 188
+      }
+     },
+     "Branches": {
+     }
+    },
+    "T lab5.Cont`2::get_First()": {
+     "Lines": {
+      "331": {
+       "Hits": 188
+      }
+     },
+     "Branches": {
+     }
+    },
+    "System.String lab5.Cont`2::ToString()": {
+     "Lines": {
+      "334": {
+       "Hits": 7
+      },
+      "335": {
+       "Hits": 7
+      },
+      "336": {
+       "Hits": 7
+      }
+     },
+     "Branches": {
+     }
+    }
+   }
+  }
+ }
+}

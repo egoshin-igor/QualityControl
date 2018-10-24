@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Компилятор Microsoft (R) Visual C#",
+        "version": "2.6.0.0",
+        "fileVersion": "2.6.0.62309 (d3f6b8e7)",
+        "semanticVersion": "2.6.0",
+        "language": "ru-RU"
+      },
+      "results": [
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Studies/QualityControl/QualityControl/lab1/Program.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 11,
+                  "endLine": 8,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Studies/QualityControl/QualityControl/lab1/Program.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 21,
+                  "endLine": 70,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1168": {
+          "id": "S1168",
+          "shortDescription": "Empty arrays and collections should be returned instead of null",
+          "fullDescription": "Returning null instead of an actual array or collection forces callers of the method to explicitly test for nullity, making them more complex and less readable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1168",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -5,6 +5,7 @@ using HtmlParser.Models;
 using HtmlParser.Util;
 using Newtonsoft.Json;
 using System;
+using HtmlParser.Dto;
 
 namespace HtmlParser.Controllers
 {
@@ -18,10 +19,10 @@ namespace HtmlParser.Controllers
         [Route( "api/links" ), HttpPost]
         public IActionResult GetLinks( string href )
         {
-            List<string> links;
+            LinksWrapper links;
             try
             {
-                links = HtmlParserUtil.GetLinksList( href );
+                links = HtmlParserUtil.GetAllLinksInDomain( href );
             }
             catch ( Exception ex )
             {

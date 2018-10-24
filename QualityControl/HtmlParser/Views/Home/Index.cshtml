@@ -4,9 +4,18 @@
 }
 
 <div class="container">
-    <label for="href">Модель</label>
-    <input type="text" class="input" id="jq-input" />
-    <button class="btn btn-primary" id="jq-button">Показать</button>
-    <div class="normal-links-wrapper" id="jq-normal-links-wrapper"></div>
-    <div class="broken-links-wrapper" id="jq-broken-links-wrapper"></div>
+    <div class="search-wrapper">
+        <label for="href">Адрес</label>
+        <input type="text" class="input" id="jq-input" />
+        <button class="btn btn-primary" id="jq-button">Показать</button>
+    </div>
+    <div id="jq-error-block"></div>
+    <div class="links-wrapper">
+        <h3>Нормальные ссылки</h3>
+        <div class="normal-links-wrapper" id="jq-normal-links-wrapper"></div>
+    </div>
+    <div class="links-wrapper">
+        <h3>Битые ссылки</h3>
+        <div class="broken-links-wrapper" id="jq-broken-links-wrapper"></div>
+    </div>
 </div>
